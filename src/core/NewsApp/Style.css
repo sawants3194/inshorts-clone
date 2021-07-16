@@ -1,0 +1,10 @@
+.nav {
+  box-shadow: 5px 5px 8px gray;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.icon {
+  flex: 0.5;
+}
+
