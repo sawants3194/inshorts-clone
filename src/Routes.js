@@ -11,7 +11,7 @@ const Routes = () => {
         <BrowserRouter>
     <Switch>
         <Route path='/' exact  component={NewsApp} ></Route>
-        <Route path='/weather' exact component={Weather} ></Route>
+        {/* <Route path='/weather' exact component={Weather} ></Route> */}
         
 
     </Switch>
