@@ -1,7 +1,8 @@
 # Getting Started with Create React App
 
 
-(https://https://github.com/EU1182053/inshort-clone/blob/main/public/1.png?raw=true)
+![alt text](https://github.com/EU1182053/inshort-clone/blob/main/public/1.png?raw=true)
+
 ## Available Scripts
 
 In the project directory, you can run:
