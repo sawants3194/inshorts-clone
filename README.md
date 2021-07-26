@@ -1,3 +1,15 @@
+# How to run it
+Clone the repository and go into the project. Type the following command as follows
+1. npm i
+2. npm start
+
+
+# Requirements
+1.Node installed on your machine.
+2.https://newsapi.org/ get your news api key from here
+3.https://openweathermap.org/api get your weather api key from here and replace your keys with mine.
+
+
 # Screenshots of the inshort-clone
 
 
