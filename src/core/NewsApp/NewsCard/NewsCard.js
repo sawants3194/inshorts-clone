@@ -13,10 +13,10 @@ const NewsCard = ({ newsItem }) => {
   return (
     <div className="newsCard">
       <img
-      alt="not available"
+        alt="not available"
         src={
           newsItem.urlToImage
-            }
+        }
         className="newsImage"
       />
       <div className="newsText">
