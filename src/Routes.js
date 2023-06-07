@@ -9,7 +9,7 @@ const Routes = () => {
     return (
         <BrowserRouter>
     <Switch>
-        <Route path='/inshorts-clone' exact  component={NewsApp} ></Route>
+        <Route path='/' exact  component={NewsApp} ></Route>
         <Route path='/weather' component={Weather} ></Route>
         
 
