@@ -12,16 +12,21 @@ const NewsApp = () => {
   const [newsArray, setnewsArray] = useState([]);
   const [newsResults, setnewsResults] = useState();
   const [loadMore, setLoadMore] = useState(40);
+ 
 
   // console.log(process.env);
   // console.log(NEWS_API);
- 
+  
   useEffect(() => {
     const newsApi = async () => {
       await axios
         .get(
           `https://newsapi.org/v2/top-headlines?country=in&apiKey=${NEWS_API}&category=${category}&pageSize=${loadMore}`
-          )
+          ,{
+            headers:{
+              'Access-Control-Allow-Origin':'*'
+            }
+          })
         .then(function (response) {
           // handle success
           setnewsArray(response.data.articles);
