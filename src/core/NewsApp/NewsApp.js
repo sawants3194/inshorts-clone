@@ -1,11 +1,9 @@
-import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import NavInshorts from './NavInshorts'
 import NewsContent from "./NewsContent/NewsContent"
 import Footer from "./Footer/Footer"
-import { NEWS_API } from '../../ApiKey';
 import Menu from '../../Menu';
-
+ 
 
 const NewsApp = () => {
   const [category, setCategory] = useState("general");
