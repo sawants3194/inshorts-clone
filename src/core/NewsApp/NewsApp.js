@@ -15,22 +15,17 @@ const NewsApp = () => {
 
   // console.log(process.env);
   // console.log(NEWS_API);
-  var config = {
-    headers: { 'Access-Control-Allow-Origin': '*' }
-  };
+ 
   useEffect(() => {
     const newsApi = async () => {
       await axios
         .get(
           `https://newsapi.org/v2/top-headlines?country=in&apiKey=${NEWS_API}&category=${category}&pageSize=${loadMore}`
-          , config)
+          )
         .then(function (response) {
           // handle success
-          console.log(`https://newsapi.org/v2/top-headlines?country=in&apiKey=${NEWS_API}&category=${category}&pageSize=${loadMore}`)
           setnewsArray(response.data.articles);
-          newsArray.map(n => {
-            console.log(n)
-          })
+         
           setnewsResults(response.data.totalResults);
         })
         .catch(function (error) {
