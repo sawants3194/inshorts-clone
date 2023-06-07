@@ -9,13 +9,13 @@ const Routes = () => {
     return (
         <BrowserRouter>
     <Switch>
-        <Route path='/' exact  component={NewsApp} ></Route>
-        <Route path='/weather' exact component={Weather} ></Route>
+        <Route path='/inshorts-clone' exact  component={NewsApp} ></Route>
+        <Route path='/weather' component={Weather} ></Route>
         
 
     </Switch>
     </BrowserRouter>
     )
-}
+} 
 
 export default Routes

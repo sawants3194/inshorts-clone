@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/inshorts-clone/static/css/main.02fdd74d.chunk.css",
+    "main.js": "/inshorts-clone/static/js/main.641d9e8d.chunk.js",
+    "main.js.map": "/inshorts-clone/static/js/main.641d9e8d.chunk.js.map",
+    "runtime-main.js": "/inshorts-clone/static/js/runtime-main.fb6904ad.js",
+    "runtime-main.js.map": "/inshorts-clone/static/js/runtime-main.fb6904ad.js.map",
+    "static/css/2.c726a14f.chunk.css": "/inshorts-clone/static/css/2.c726a14f.chunk.css",
+    "static/js/2.02e97b04.chunk.js": "/inshorts-clone/static/js/2.02e97b04.chunk.js",
+    "static/js/2.02e97b04.chunk.js.map": "/inshorts-clone/static/js/2.02e97b04.chunk.js.map",
+    "index.html": "/inshorts-clone/index.html",
+    "static/css/2.c726a14f.chunk.css.map": "/inshorts-clone/static/css/2.c726a14f.chunk.css.map",
+    "static/css/main.02fdd74d.chunk.css.map": "/inshorts-clone/static/css/main.02fdd74d.chunk.css.map",
+    "static/js/2.02e97b04.chunk.js.LICENSE.txt": "/inshorts-clone/static/js/2.02e97b04.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/inshorts-clone/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb6904ad.js",
+    "static/css/2.c726a14f.chunk.css",
+    "static/js/2.02e97b04.chunk.js",
+    "static/css/main.02fdd74d.chunk.css",
+    "static/js/main.641d9e8d.chunk.js"
+  ]
+}
