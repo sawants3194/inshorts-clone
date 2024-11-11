@@ -2,7 +2,6 @@ import React from "react";
 import "./NewsCard.css";
 
 const NewsCard = ({ newsItem }) => {
-  // console.log(newsItem);
 
   //2021-01-09T12:15:30Z
   const fulldate = new Date(newsItem.publishedAt); // Sat  Jan 09 2021  17:45:30  GMT+0530

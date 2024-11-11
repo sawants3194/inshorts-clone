@@ -1,11 +1,12 @@
 import React from "react";
 import './Style.css'
+import TemporaryDrawer from "./HamburgerDrawer";
 
-const NavInshorts = ({setCategory}) => {
+const NavInshorts = () => {
   return (
     <div className="nav">
       {/* <div className="icon">
-        <HamburgerDrawer setCategory={setCategory} />
+        <TemporaryDrawer setCategory={setCategory} />
       </div> */}
      
         <img

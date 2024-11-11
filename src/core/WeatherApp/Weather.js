@@ -5,8 +5,7 @@ import Menu from '../../Menu';
 import WeatherApp from './WeatherApp/WeatherApp';
 
 const Weather = () => {
-  // console.log(process.env);
-  // console.log(WEATHER_API);
+  
     const [lat, setLat] = useState([]);
     const [long, setLong] = useState([]);
     const [data, setData] = useState([]);

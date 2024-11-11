@@ -1,7 +1,7 @@
 import React from "react";
 import "./weather.css";
 import { Button } from 'semantic-ui-react';
-import moment from "moment";
+import dayjs from "dayjs"
 import { Container } from "@material-ui/core";
 
 const refresh = () => {
@@ -17,7 +17,7 @@ const WeatherApp = ({ weatherData }) => {
   <Button className="button" inverted color='blue' circular icon='refresh' onClick={refresh} />
 </div>
 <div className="flex">
-  <p className="day">{moment().format('dddd')}, <span>{moment().format('LL')}</span></p>
+  <p className="day">{dayjs().format('dddd')}, <span>{dayjs().format('LL')}</span></p>
   <p className="description">{weatherData.weather[0].main}</p>
 </div>
 

@@ -1,21 +1,17 @@
-import React from 'react'
-import {BrowserRouter, Switch, Route} from 'react-router-dom'
-import NewsApp from './core/NewsApp/NewsApp'
-import Weather from './core/WeatherApp/Weather'
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Import Routes as well
+import NewsApp from './core/NewsApp/NewsApp';
+import Weather from './core/WeatherApp/Weather';
 
-
-
-const Routes = () => {
-    return (
-        <BrowserRouter>
-    <Switch>
-        <Route path='/' exact  component={NewsApp} ></Route>
-        <Route path='/weather' component={Weather} ></Route>
-        
-
-    </Switch>
+const AppRoutes = () => {
+  return (
+    <BrowserRouter>
+      <Routes> {/* Wrap routes inside the Routes component */}
+        <Route path="/" element={<NewsApp />} />
+        <Route path="/weather" element={<Weather />} />
+      </Routes>
     </BrowserRouter>
-    )
-} 
+  );
+}; 
 
-export default Routes
+export default AppRoutes;
