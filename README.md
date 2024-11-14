@@ -77,4 +77,11 @@ Contributions are welcome! Please follow these steps:
    ```
 5. **Open a pull request**
 
+### Sample Output
+![Laptop](./screenshots/laptop.png)
+
+![Mobile](./screenshots/mobile.png)
+
+![IPad](./screenshots/ipad.png)
+
 
