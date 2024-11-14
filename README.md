@@ -78,10 +78,10 @@ Contributions are welcome! Please follow these steps:
 5. **Open a pull request**
 
 ### Sample Output
-![Laptop](./screenshots/laptop.png)
+<img src="/screenshots/laptop.PNG" alt="Laptop Screenshot" />
+<img src="/screenshots/mobile.PNG" alt="Mobile Screenshot" />
+<img src="/screenshots/ipad.PNG" alt="IPad Screenshot" />
 
-![Mobile](./screenshots/mobile.png)
 
-![IPad](./screenshots/ipad.png)
 
 
