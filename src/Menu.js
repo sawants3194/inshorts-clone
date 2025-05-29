@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import './style.css';
 
 const Menu = () => {
-  const navigate = useNavigate();
+  const history = useHistory();
 
   const goToHome = () => {
-    navigate('/');
+    history('/');
   };
 
   return (
